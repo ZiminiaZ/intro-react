@@ -26,10 +26,10 @@ class App extends React.Component {
     });
   }
 
-  /*Check out this addAssignment method*/
+  /*Check out this addAssignment method*/    
   addAssignment(assignmentName) {
     this.setState({
-    {this.props.title}
+     assignments: this.state.assignments.concat(assignmentName)
     });
   }
 
